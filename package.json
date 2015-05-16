@@ -1,0 +1,43 @@
+{
+  "name": "sabun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "gulp test",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/70-10/sabun.git"
+  },
+  "author": "70_10",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/70-10/sabun/issues"
+  },
+  "homepage": "https://github.com/70-10/sabun#readme",
+  "devDependencies": {
+    "babel": "^5.4.3",
+    "babel-core": "^5.4.3",
+    "babel-eslint": "^3.1.3",
+    "babelify": "^6.1.1",
+    "browserify": "^10.2.0",
+    "del": "^1.1.1",
+    "eslint": "^0.21.1",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-util": "^3.0.4",
+    "run-sequence": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.26.0",
+    "log4js": "^0.6.25",
+    "react": "^0.13.3"
+  }
+}
